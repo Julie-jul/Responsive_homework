@@ -111,3 +111,94 @@ h4 {
   margin: 0;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  span {
+    font-size: 14px;
+  }
+  .email-link {
+    font-size: 26px;
+  }
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 33px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .email-link {
+    font-size: 22px;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .col-sm-4 {
+    max-width: 80%;
+    margin: 0px auto;
+  }
+  .navigation-links a {
+    margin: 18px;
+    padding: 15px 10px;
+  }
+  .col-sm-6 {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  .text-start {
+    text-align: center !important;
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  .launch-button {
+    display: block;
+    text-align: center;
+  }
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  h3 {
+    font-size: 17px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
+  .navbar-brand {
+    font-size: 17px;
+  }
+}
